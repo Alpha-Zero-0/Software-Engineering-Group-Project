@@ -1,0 +1,106 @@
+\documentclass[manuscript]{acmart}
+\usepackage{graphicx} 
+
+
+
+%% Removing the ACM Reference Format text block
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+%%
+
+\title{A Novel Interactive System to Combat Household Food Waste}
+\author{Group 10 }
+\date{October 2025}
+
+
+
+
+\begin{document}
+
+
+\maketitle
+
+% --- TABLE OF CONTENTS ---
+% Exclude the Table of Contents (Not in word Coubt)
+\tableofcontents
+\newpage
+
+
+% --- REPORT BODY ---
+
+% ----------------------------------------------------------------------
+% SECTION 1: INTRODUCTION AND BACKGROUND
+% ----------------------------------------------------------------------
+\newpage
+\section{Introduction and background}
+% This section should be ~2-3 pages
+% Describe the problem domain (sustainability, specifically food waste)
+% Detail the social and technical challenges
+% Showcase our motivation and what makes the project novel
+\input{introduction_and_background}
+\label{sec:introduction}
+% About 2-3 pages
+
+
+% ----------------------------------------------------------------------
+% SECTION 2: STAKEHOLDERS AND THEIR GOALS
+% ----------------------------------------------------------------------
+\newpage
+\section{Stakeholders and their goals}
+% This section should be ~ 1-2 pages
+% Describe primary, secondary, and other stakeholders
+% Detail their context, needs, and desired goals/experiences
+\label{sec:stakeholders}
+% About 1-2 pages
+
+
+
+% ----------------------------------------------------------------------
+% SECTION 3: PROJECT GOALS AND THE PROPOSED SYSTEM
+% ----------------------------------------------------------------------
+\newpage
+
+\section{Project goals and the proposed system}
+% This section should be ~2-3 pages
+% Clearly state the problem you are solving and your project's goal
+% Introduce the system and its user benefits in implementation free terms
+% Describe our customer measures of success
+% Include a competitor analysis
+\input{Project_goals_and_system}
+\label{sec:project-goals}
+% About 2-3 pages
+
+
+% ----------------------------------------------------------------------
+% SECTION 4: PROJECT MANAGEMENT AND THE TEAM
+% ----------------------------------------------------------------------
+\newpage
+
+\section{Project management and the team}
+% This section should be ~2-3 pages
+% Describe our development process (Agile/Scrum)
+% Justify our choice of tools, languages, libraries
+% Detail your plants for testing, evaluation, and work distribution
+\input{project_management_and_the_team}
+\label{sec:project-management}
+
+
+% ----------------------------------------------------------------------
+% SECTION 5: CONSTRAINTS AND RISKS
+% ----------------------------------------------------------------------
+\newpage
+\section{Constraints and Risks}
+% This section should be ~1 page.
+% Describe any constraints (technical, legal, ethical, etc.)
+% Identify potential risks and your plans to mitigate them
+% A table is  effective here for risk assessment
+\input{constraints_risks}
+
+% ----------------------------------------------------------------------
+% SECTION 6: REFERENCES
+% ----------------------------------------------------------------------
+
+\end{document}
