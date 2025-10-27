@@ -1,11 +1,84 @@
-Little Intro...
-\subsubsection{Stakeholder/Customer Problem Statement and Project Goal}
-\subsubsection{The Proposed Novel Interactive System:}
-\subsubsection{User Benefitis in Implementation-Free Terms}
-\subsubsection{Supporting Stakeholder Goals}
-\subsubsection{Stakeholder-Centric Measures of Success}
-\subsubsection{Potential NegativeImpacts Of The Proposed System}
-3.6.1 Legal Implications
-3.6.2 Ethical Implications
-3.6.3 Professional Implications
+\subsection{Stakeholder/Customer Problem Statement and Project Goal}
+\par
+The core problem that this project aims to address is that university students, who are often financially constrained, struggle with the cognitive burden of managing food purchases, leading to unintentional food waste and, in turn, negative environmental consequences.
+\\
+Food waste is a significant national and global issue with well-documented ecological impacts \cite{JeswaniExtentOfFoodWaste}. Our project focusses on a key demographic that disproportionately contributes to the problem. While the system is designed to be accessible to everyone, it is primarily tailored towards students (aged 18–24), who have been identified as one of the largest sources of household food waste \cite{WangWhatInfluencesFoodWaste}. This issue often stems not from a lack of environmental concern, but from the overwhelming cognitive demands of managing new responsibilities associated with independent living. Limited budgets, poor meal planning, and forgetfulness often result in overlooked or spoilt food. Therefore, the project's primary goal is to provide a tool that directly reduces food waste by alleviating these mental burdens through tracking and management tools. As a secondary goal, the project aims to improve awareness about sustainable consumption and promote environmental sustainability by addressing the common misconception among students who often underestimate that food waste has a lesser environmental impact than more visible issues such as packaging waste.
+
+
+\subsection{The Proposed Novel Interactive System}
+\par 
+\noindent To address this problem, we propose the development of [name???], a novel and free-to-use interactive mobile application for the Android platform. The system is designed to be a solution to the problem of household food waste, specifically targeting the needs of university students. The system provides users with the ability to monitor their home food inventory, primarily through camera-based expiration date scanning. It then sends proactive notifications for items nearing their expiration date and offers suggestions for recipes that use available ingredients. By integrating these features into a single, user-friendly, and accessible platform, [name??] aims to significantly prevent waste before it occurs, addressing a market gap left by subscription-based planners.
+
+
+\subsection{User Benefits in Implementation-Free Terms}
+\par
+There are a number of key benefits that our system will provide for users, independent of the technical implementation.
+\begin{itemize}
+\item Reduced Mental Load: The system will automate the tracking of all food items and expiry dates, which will reduce the mental burden of inventory management.
+\item Financial savings: The system will prompt users to consume food before it expires, making sure they gain the full value of the groceries they bought..
+\item Sustainable habit formation: The system will create a sense of control in kitchen management for the users through actionable suggestion which will help build lasting habits for sustainable living
+\item Intelligent Meal Recommendations: These recommendations are to use ingredients that are approaching their expiry date, helping users manage leftovers and plan meals.
+\end{itemize}
+\newpage
+\subsection{Supporting Stakeholder Goals}
+\textbf{Scanning items}
+\par
+Primary stakeholders: Students often struggle with time management, planning, and hectic schedules. As a result, the prospect of having to manually enter every item they purchase into an app would likely dissuade many potential users, who may consider such a task infeasible due to time constraints. By introducing the ability to simply scan items into the system, we significantly reduce the time taken for users to enter their food items, improving the user experience and allowing students to more easily make use of the app’s functionality.
+
+\textbf{Calculating and tracking expiry dates}
+\par
+Primary stakeholders: In surveys that we conducted across multiple universities, a majority of students stated that they check the expiry dates of their groceries a minimum of “2-3 times a week”, with new students in particular checking frequently. Our app offers students a simple and convenient way to do this, by tracking the expiry date of all food scanned by the system and presenting the information collected in a single, easily accessible location
+\newline 
+\textbf{Notifications about expiry dates}
+\par
+Primary stakeholders: According to the surveys we conducted, a number of the students who “sometimes” had to dispose of expired food cited forgetfulness as the principal cause, consistently due to the student forgetting either the existence or the expiry date of food items. In order to address this issue, the system will issue notifications to users informing them of items that are due to expire soon. In doing so, the app ensures that users are kept apprised of any products that are nearing expiry, removing any risk of forgotten food and guaranteeing that the data stored in the system is made clearly available to the user when it becomes relevant.
+\newline 
+\textbf{Meal recommendations}
+\par
+Primary stakeholders: A common factor in students generating food waste is poor meal planning, which often results in leftover or unused ingredients. Many students are new to independent living, and may have difficulty knowing what to do with products that need using despite being aware of the expiry date. To this end, our system will suggest potential meal plans to the user centred around using items due to expire soon, facilitating students in taking advantage of the data provided by the app.
+
+\subsection{Stakeholder-Centric Measures of Success}
+\par
+\noindent The success of our system will be assessed using a combination of quantitative and qualitative metrics with a primary focus on stakeholder experience. These insights will enable us to demonstrate the achievement of our core objectives regarding efficiency and waste reduction and continuously refine the prototype to definitively meet customer needs.
+\vspace{1pt}
+\textbf{Quantitative Measures:}
+\begin{itemize}
+\item Reduction in self-reported waste: Any change in the number of food items discarded per week by a cohort of test users will be measured using pre- and post-installation surveys.
+\item User engagement metrics: including daily active users, frequency and success rate of item scanning, and user interaction rates with expiry notifications and meal recommendations will be tracked anonymously.
+\item Scanning efficiency: This will be measured by tracking the success rate of the OCR scanning feature, i.e. the percentage of scans that do not require manual correction.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Qualitative Measures:}
+\begin{itemize}
+\item User Satisfaction Surveys: Scores gathered from in-app surveys and questionnaires will assess the usefulness and ease of the system, as well as its impact on stress levels related to food management.
+\item Structure Interviews: In-depth interviews will be conducted with a small group of target users to gather nuanced feedback on the overall user experience and suggest improvements to the system.
+\item Reviews: Publicly available app store ratings and written reviews will be used as an indicator of general user sentiment.
+\end{itemize}
+\subsection{Potential Negative Impacts Of The Proposed System}
+
+
+The system's operation will involve the collection of user-generated data, which is subject to regulations such as the General Data Protection Regulation (GDPR). The system must strictly follow a clear privacy policy, obtaining user consent for data processing, and implementing data security measures are legal necessities. Furthermore, there is a risk that an error in the OCR scanning of an expiration date could lead a user to consume spoiled food, which may potentially lead to lawsuits. To mitigate potential liability and the risk of lawsuits, the application must include a clear disclaimer. [Still sorting out an image]
+
+\vspace{6pt}
+
+\textbf{Ethical Implications}
+\par
+\begin{itemize}
+    \item \textbf{Data Privacy:} The application will handle potentially sensitive data regarding users' consumption habits. This data must be processed carefully to ensure that it is neither sold nor shared with third parties without clear user consent.
+    \item \textbf{Over-Reliance:} There is a risk that users may become overly dependent on the app's notifications, which could diminish their ability to assess food freshness and increase their screen time, potentially having a negative impact on vision and mental health. The app's design should therefore aim to educate users rather than create passive reliance.
+    \item \textbf{Digital Bias and discrimination:} The system could unintentionally disadvantage certain groups. This includes individuals with older smartphone models incapable of running the app and users with visual impairments if accessibility is not prioritised.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Professional Implications}
+\par
+\begin{itemize}
+    \item \textbf{System Reliability:} The credibility of the application and its developers depends on its reliability. Bugs in the software that lead to incorrect date tracking, missed notifications or data loss would undermine user trust.
+    \item \textbf{Accessibility Standards:} Failure to design and build the application in accordance with established accessibility standards (e.g. the Web Content Accessibility Guidelinesfor mobile) would be a professional failure, as it would exclude users with disabilities.
+    \item \textbf{Data Security:} A breach of user data resulting from defective security procedures would be a severe professional and ethical failure with significant reputational and potentially legal repercussions.
+\end{itemize}
+
 

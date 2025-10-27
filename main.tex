@@ -1,7 +1,6 @@
 \documentclass[manuscript]{acmart}
 \usepackage{graphicx} 
-
-
+\usepackage[numbers]{natbib}
 
 %% Removing the ACM Reference Format text block
 \setcopyright{none}
@@ -12,10 +11,8 @@
 %%
 
 \title{A Novel Interactive System to Combat Household Food Waste}
-\author{Group 10 }
+\author{Group 10}
 \date{October 2025}
-
-
 
 
 \begin{document}
@@ -27,7 +24,6 @@
 % Exclude the Table of Contents (Not in word Coubt)
 \tableofcontents
 \newpage
-
 
 % --- REPORT BODY ---
 
@@ -53,6 +49,7 @@
 % This section should be ~ 1-2 pages
 % Describe primary, secondary, and other stakeholders
 % Detail their context, needs, and desired goals/experiences
+\input{stakeholders_and_their_goals}
 \label{sec:stakeholders}
 % About 1-2 pages
 
@@ -61,8 +58,7 @@
 % ----------------------------------------------------------------------
 % SECTION 3: PROJECT GOALS AND THE PROPOSED SYSTEM
 % ----------------------------------------------------------------------
-\newpage
-
+\newpage 
 \section{Project goals and the proposed system}
 % This section should be ~2-3 pages
 % Clearly state the problem you are solving and your project's goal
@@ -102,5 +98,41 @@
 % ----------------------------------------------------------------------
 % SECTION 6: REFERENCES
 % ----------------------------------------------------------------------
+\newpage
+\bibliographystyle{bathx}
+\bibliography{bibliography}
 
+
+% ----------------------------------------------------------------------
+% SECTION 7: APPENDICES
+% ----------------------------------------------------------------------
+\newpage
+\appendix
+\section{Stakeholder Survey Data}
+\subsection{Survey Questions}
+
+
+\subsection{Responses}
+Responses to the "First Year" Survey:
+
+Responses to the "Second Year and Above" Survey:
+
+Responses to the "Parents" Survey:
+
+Notes:
+Data from the "First Year" Survey and the "Second Year and Above" Survey was collected from University students attending the universities of Bath, Cambridge, Oxford, LSE and Durham.
+Data from the "Parents" Survey was collected from parents in the Surrey area
+\subsection{Raw Data}
+The full raw survey data for all three forms is provided as supplementary material in the files:
+\begin{itemize}
+  \item Appendix\_Raw-Data\_StakeholderSurveyFirstYear.xlsx
+  \item Appendix\_Raw-Data\_StakeholderSurveySecondYearandAbove.xlsx
+  \item Appendix\_Raw-Data\_StakeholderSurveyParents.xlsx
+\end{itemize}
+
+\newpage
+\section{Additional Data - REMOVE IF NOT NEEDED}
+\subsection{Meeting Minutes}
+\subsection{Meeting Notes}
+More content in a second appendix.
 \end{document}

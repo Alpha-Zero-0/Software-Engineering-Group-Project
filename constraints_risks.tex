@@ -5,11 +5,14 @@ These are the factors that will limit our design, implementation, and deployment
 
 \begin{itemize}
 
-\item Data Privacy (GDPR/CCPA)
+\item Data Privacy (GDPR): \\
+Constraints around collecting and storing user data (e.g., location, purchasing habits) and the need for transparent Consent Mechanisms.
 
-\item Food Labeling Compliance
+\item Food Labelling Compliance: \\
+Need to ensure the app's information presentation doesn't conflict with or misrepresent Official Food Labeling Regulations (e.g., the legal definition of "Best Before" vs. "Use By"). The app must be clearly an informational tool, not a definitive legal authority.
 
-\item Platform/App Store Policies
+\item Platform/App Store Policies: \\
+Adherence to strict rules set by Google Play and Apple App Store (e.g., security, payment systems, content).
 
 \end{itemize}
 
@@ -24,11 +27,19 @@ These are the factors that will limit our design, implementation, and deployment
 There are potential problems that could negatively affect the project's success, the following actions are planned to prevent or reduce their impact:
 
 \begin{center}
-\begin{tabular}{| p{2cm} | p{5cm} | p{5cm} |}
+\begin{tabular}{| p{2cm} | p{5cm} | p{7cm} |}
     \hline
     \textbf{Risk Category} & \textbf{Potential Risk} & \textbf{Mitigation Plan} \\
     \hline
     Technical & Inaccurate Scanning and Data Entry (e.g., misreading an expiry date, linking to the wrong product). & A clear training protocol and double-checking process for data entry specialists. \\
+    \hline
+    User Adoption & Lack of User Engagement (users stop scanning items after the initial novelty wears off). & Focus on a Seamless User Experience (minimal steps to log an item), Gamification elements (e.g., tracking food waste reduction score), and Push Notifications (gentle reminders for items nearing expiration). \\
+    \hline
+    Data/Security & Data Breach or Misuse of Personal Data (e.g., purchasing history is compromised). & Ensure Encryption in Transit and at Rest for all personal data. Use anonymisation or aggregation techniques where possible. Conduct regular Security Audits and adhere to OWASP Top 10 guidelines. \\
+    \hline
+    Resource/Scope & Project features expand beyond initial capacity, leading to delays. & Maintain a strict Minimum Viable Product (MVP) definition. Use a formal change request process for all new feature suggestions. Prioritize features based on their Direct Impact on Food Waste Reduction. \\
+    \hline
+    External & Major Manufacturer Changes (e.g., a dominant supermarket changes its QR code format or packaging). & Develop a Modular Scanning System that can be rapidly updated to accommodate changes in labeling formats. Establish an Ongoing Data Maintenance schedule. \\
     \hline
 \end{tabular}
 \end{center}
